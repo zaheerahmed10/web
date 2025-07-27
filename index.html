@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zaheer's PDF Vault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Zaheer Ahmed Chachar</h1>
+    <p>Studying in QUEST Computer Systems Engineering</p>
+
+    <h2>Upload PDF (Only Zaheer)</h2>
+    <form id="uploadForm">
+      <input type="file" id="pdfFile" accept="application/pdf" required>
+      <input type="password" id="password" placeholder="Enter password" required>
+      <button type="submit">Upload PDF</button>
+    </form>
+
+    <h2>Uploaded PDFs</h2>
+    <div id="fileList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
